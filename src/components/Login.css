@@ -1,0 +1,54 @@
+*{
+    color: black;
+}
+
+button{
+    overflow: none;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.link{
+    text-decoration: none;
+    background-color: bisque;
+    color: black;
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: 200;
+    font-size: small;
+}
+
+.link:hover{
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+}
+
+.errors {
+    color: rgb(221, 110, 110);
+    text-align: left;
+    margin: 0;
+}
+
+.mdiv{
+    max-width: 20rem;
+    background-color:rgb(207, 192, 164) ;
+    border-radius: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading{
+    padding-top: 5px;
+    color: black;
+}
+
+input{
+    background-color: white;
+    border: none;
+}
+
+button{
+    margin: 10px 0;
+}

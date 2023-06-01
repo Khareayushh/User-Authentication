@@ -1,0 +1,26 @@
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: medium;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+}
+
+button:first-child{
+    margin-bottom: 15px;
+}
+button:last-child{
+    margin-top: 10;
+}
